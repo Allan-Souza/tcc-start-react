@@ -1,15 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '../components/navbar';
 
 export default function Equipe(){
     return(
 <main className="background-default pt-5">
     <div className="col-lg-6 col-md-8 mx-auto bg-light p-4 rounded div-master">
+       <Navbar/> 
+        <title>Contato</title>
         <h1>Equipe Sirius Development</h1>
             <div className="equipe">
               <div id="allan" className="grid-item">
                     <h2>Allan Souza</h2>
-                    <img width="200" height="200" alt="imagem_allan" src="/prototipo-tcc/src/img/Allan.jpg">
-                    <br>
+                    <img width="200" height="200" alt="imagem_allan" src="../">
                     <a href="https://www.linkedin.com/in/allan-victor-266ab6198/" target="_blank">Linkedin</a>
                     <a href="https://github.com/Allan-Souza" target="_blank">Github</a> 
                 </div>
