@@ -1,0 +1,13 @@
+.background-default{
+    width: 100%;
+    height: 97vh;
+    background-image: url("/src/assets/img/tower-energy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-position{
+    margin-top: 80px;
+}
+
