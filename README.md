@@ -1,1 +1,0 @@
-# tcc-start-react
