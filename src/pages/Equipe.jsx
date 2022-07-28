@@ -1,8 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar } from '../components/navbar';
 
 export function Equipe() {
 
   return (
-    <div>EQUIPE</div>
+    <div>
+      <Navbar />
+    </div>
   )
 }
