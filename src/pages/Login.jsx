@@ -14,6 +14,7 @@ export function Login() {
           <input type="password" placeholder="Senha" className="form-control form-control-lg"/> <br /> <br />
           <a href="#" className="d-flex justify-content-center text-decoration-none"><button className="btn btn-outline-success">Entrar</button></a><br />
           <p className="d-flex justify-content-center">Não tem conta? <a href="cadastro"> Clique aqui!</a></p>
+          <p className="d-flex justify-content-center"><a href="redefinir-senha"> Equeci minha senha</a></p>          
         </form>
       </div> 
     </div>

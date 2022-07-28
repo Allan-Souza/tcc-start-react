@@ -7,6 +7,7 @@ import {Calculadora} from './pages/Calculadora'
 import {Develop} from './pages/Develop'
 import {Equipe} from './pages/Equipe'
 import {Infos} from './pages/Infos'
+import {NewSenha} from './pages/new-senha'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render( 
@@ -18,7 +19,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/calculadora' element={<Calculadora/>}></Route>
         <Route path='/develop' element={<Develop/>}></Route>
         <Route path='/equipe' element={<Equipe/>}></Route>
-        <Route path='/infos' element={<Infos/>}></Route>            
+        <Route path='/infos' element={<Infos/>}></Route>
+        <Route path='/redefinir-senha' element={<NewSenha/>}></Route>            
     </Routes>
   </BrowserRouter> 
   
