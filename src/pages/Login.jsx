@@ -1,11 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from '../components/navbar';
+import '../assets/css/login.css'
 
 export function Login() {
 
   return (
     <div>
       <Navbar />
+      <div className="background-default pt-5">
+        <form className="col-lg-6 col-md-8 mx-auto bg-light p-4 rounded div-position" action='#' method='POST'>
+          <h1 className="text-center">Login</h1> <br />
+          <input type="text" placeholder="Nome Completo" className="form-control form-control-lg"/><br />
+          <input type="password" placeholder="Senha" className="form-control form-control-lg"/> <br /> <br />
+          <a href="#" className="d-flex justify-content-center text-decoration-none"><button className="btn btn-outline-success">Entrar</button></a><br />
+          <p className="d-flex justify-content-center">Não tem conta? <a href="cadastro"> Clique aqui!</a></p>
+        </form>
+      </div> 
     </div>
   )
 }
