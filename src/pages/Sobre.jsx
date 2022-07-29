@@ -5,7 +5,7 @@ import '../assets/css/sobre.css'
 export function Sobre() {
 
   return (
-    <div className='background-default'>
+    <div className='background-sobre'>
       <Navbar />
       <section className='col-lg-6 col-md-8 mx-auto bg-light p-4 rounded'>
         <h1 className='text-center'>Quem somos</h1> <br />
