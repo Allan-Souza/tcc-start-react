@@ -3,7 +3,7 @@ export function Navbar() {
     return (
         <nav className="navbar bg-light">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="perfil">
                 <img src="src/assets/img/logo/logo.png" alt="" width="70" height="60" className="d-inline-block align-text-top"/>
                 
             </a>
@@ -13,7 +13,7 @@ export function Navbar() {
                     <a className="nav-link active" aria-current="page" href="home">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="develop">Sobre</a>
+                  <a className="nav-link" href="sobre">Sobre</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="infos">Informações</a>
