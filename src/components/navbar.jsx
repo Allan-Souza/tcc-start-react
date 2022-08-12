@@ -1,31 +1,40 @@
+import { Link } from "react-router-dom"
+import './navbar.css'
+
 export function Navbar() {
 
     return (
-        <nav className="navbar bg-light">
-        <div className="container-fluid">
-            <a className="navbar-brand" href="perfil">
-                <img src="src/assets/img/logo/logo.png" alt="" width="70" height="60" className="d-inline-block align-text-top"/>
-                
-            </a>
+    <nav className="navbar bg-light navbar-expand-lg">
+      
+      <div className="container-fluid">
+          <a  href="perfil">
+              <img src="src/assets/img/logo/logo.png" alt="" width="90" height="90" className="d-inline-block align-text-top"/>              
+          </a>
 
-            <ul className="nav justify-content-end nav-tabs">
-                <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="home">Home</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="sobre">Sobre</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="infos">Informações</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="calculadora">Calculadora</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="equipe">Contato</a>
-                </li>                   
-              </ul>
-            </div>
-          </nav>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-controls="navbarNav" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+        <div id="navbarNav" className="collapse navbar-collapse nav nav-pills">
+          <ul className="navbar-nav ">
+              <li className="nav-item">
+                  <Link className="nav-link" to='/'>Home</Link>
+              </li>
+              <li className="nav-item">
+                  <Link className="nav-link" to='/sobre'>Sobre</Link>
+              </li>
+              <li className="nav-item">
+                  <Link className="nav-link" to='/informacoes'>Informações</Link>
+              </li>
+              <li className="nav-item">
+                  <Link className="nav-link" to='/calculo'>Cálculo</Link>
+              </li>
+              <li className="nav-item">
+                  <Link className="nav-link" to='/equipe'>Contato</Link>
+              </li>                   
+          </ul>
+        </div>         
+      </div>
+  </nav>
     )
   }

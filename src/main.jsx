@@ -14,13 +14,13 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render( 
   <BrowserRouter>             
     <Routes>
-        <Route path='home' element={<Home/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/cadastro' element={<Cadastro/>}></Route>
-        <Route path='/calculadora' element={<Calculadora/>}></Route>
+        <Route path='/calculo' element={<Calculadora/>}></Route>
         <Route path='/sobre' element={<Sobre/>}></Route>
         <Route path='/equipe' element={<Equipe/>}></Route>
-        <Route path='/infos' element={<Infos/>}></Route>
+        <Route path='/informacoes' element={<Infos/>}></Route>
         <Route path='/redefinir-senha' element={<NewSenha/>}></Route>
         <Route path='/perfil' element={<Perfil/>}></Route>            
     </Routes>
